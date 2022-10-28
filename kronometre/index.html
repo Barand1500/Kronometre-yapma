@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="all">
+        <h1><span id="dakika">00</span>:<span id="saniye">00</span></h1>
+        <form action="">
+            <label for="">
+                Dakika
+                <input id="secilen-dk" type="number" min="0" max="59" value="00"/>
+            </label>
+
+            <label for="">
+                Saniye
+                <input id="secilen-sn" type="number" min="0" max="59" value="00"/>
+            </label>
+        </form>
+
+        <button id="baslat">Başlat</button>
+        <button id="sıfırla">Sıfırla</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
